@@ -9,6 +9,9 @@
             echo $Cargo . "Criado com sucesso";
         }
 
+        public function __destruct(){
+            echo "Objeto sendo destruido";
+        }
         
     }
     
@@ -16,4 +19,6 @@
     $pedreiro = new Profissao('Pedreiro');
 
     echo "<br>";
+    var_dump($pedreiro);
+    unset($pedreiro);
     var_dump($pedreiro);
