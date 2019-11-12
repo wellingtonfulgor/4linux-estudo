@@ -2,7 +2,7 @@
 
 Aula de php orientado a objetos com Daniel Silva
 
-http://dontpad.com/5004linux
+http://dontpad.com/5014linux
 
 teste
   417  ssh-keygen 
