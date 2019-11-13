@@ -1,12 +1,11 @@
 <?php
 
-class Pessoa{
+abstract class Abstrata{
+
     public $nome;
     public $sobrenome;
-    public $dataNascimento;
-    public $sexo;
 
-    public function nomeCompleto() : string{
+    public function nomeCompleto():string {
         return "{$this->nome} {$this->sobrenome}";
     }
 }
