@@ -20,5 +20,6 @@ class Template implements iTemplate{
 $obj = new Template();
 $obj->setVariavel('name','asdasdasd');
 $obj->setVariavel('email','asdfasdf@gasdga.com.br');
-$obj->setVariavel('Telefone','(11) 99999-9999');
-$obj->setVariavel('Endereco','Rua teste, N 000');
+$obj->setVariavel('telefone','(11) 99999-9999');
+$obj->setVariavel('endereco','Rua teste, N 000');
+$obj->setVariavel('final','Todos os direitos reservados');

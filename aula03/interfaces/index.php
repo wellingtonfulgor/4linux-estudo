@@ -13,13 +13,20 @@
 <div class="container mt-4">
     <div class="card">
         <div class="card shadow">
-            <div class="card-header">
+            <div class="card-header bg-primary">
                 <?= $obj->getHtml('<h5 class="card-title">{name}</h5>')?>          
             </div>
-                <?= $obj->getHtml('<p class="card-text">{Endereco}</>')?>
+                
             <div class="card-body"> 
-              
+                <?= $obj->getHtml('<p class="card-text">{email}</p>')?>
+                <?= $obj->getHtml('<p class="card-text">{telefone}</p>')?>
+                <?= $obj->getHtml('<p class="card-text">{endereco}</p>')?>
             </div>
+
+            <div class="card-footer">
+                <?= $obj->getHtml('<p class="card-text">{final}</p>')?>
+            </div>
+
         </div>
 
     </div>
