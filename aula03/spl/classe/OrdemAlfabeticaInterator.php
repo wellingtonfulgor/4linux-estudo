@@ -1,6 +1,6 @@
 <?php
 
-require_once 'interators.php';
+require_once 'Interator.php';
 class OrdemAlfabeticaIterator implements Iterator{
     private $colecao;
     private $posicao = 0;
