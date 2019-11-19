@@ -27,7 +27,7 @@ class TestePropriedade2{
 
     public function __set($propriedade, $valor){
         if(property_exists(__CLASS__, $propriedade)){
-            echo "Valor Atribuido";
+            echo "Valor Atribuido<br>";
             $this->$propriedade = $valor;
         }else{
             echo "Voce nao possui permissao para criar atributos<br>";
@@ -38,8 +38,10 @@ class TestePropriedade2{
 
     public function __get($propriedade){
         echo "Voce acessou o atributo {$propriedade}<br>";
+        echo $this->$propriedade;
     }
 }
 
 $obj2 = new TestePropriedade2('Wellington', 20);
-echo $obj2->nome;
+//echo $obj2->nome;
+$obj2->sobrenome = 'silva';
