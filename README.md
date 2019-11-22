@@ -40,3 +40,18 @@ teste
   337  git push -u origin master
 
   
+// MVC
+
+  -Models = Definel as regras de negocios
+            Modelo do banco
+            validacao entrada
+            Selecao
+  -Views = 
+            Arquivos Front
+
+  -Controller = Controle da aplicacao
+            Refina os dados
+            
+
+  -Rotas = 
+            Controle de redirecionamento da parte visual
