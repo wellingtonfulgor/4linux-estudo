@@ -1,7 +1,8 @@
 <?php
 
-use PHPUnit\Framework\TesteCase;
+require_once 'vendor/phpunit/phpunit/tests/unit/Framework/TestCaseTest.php';
 require_once 'Calculadora.php';
+use PHPUnit\Framework\TesteCase;
 
 
 class CalculadoraTeste extends TesteCase{
