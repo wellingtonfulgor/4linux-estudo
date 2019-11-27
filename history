@@ -1,0 +1,966 @@
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+sudo apt upgrade
+exit
+cd /media/developer/VBox_GAs_5.2.18/
+ls
+sudo apt install gcc
+sudo apt install make
+ls
+sudo ./VBoxLinuxAdditions.run
+sudo init 6
+sudo apt update
+sudo apt install vim
+vim .bashrc
+exit
+sudo apt install apache2
+sudo systemctl status apache2
+sudo apt install php libapache2-mod-php
+sudo apt install php-cli
+sudo apt install php-cgi
+sudo apt install php-mysql
+sudo apt install php-pgsql
+sudo systemctl restart apache2
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl restart apache2
+sudo vim /var/www/html/phpinfo.php
+sudo apt install mysql-server
+sudo ss -tap | grep mysql
+sudo su
+sudo apt install postgresql
+sudo systemctl postgresql
+sudo systemctl status postgresql
+sudo su
+sudo apt update
+sudo apt install mysql-workbench
+sudo passwd postgres
+sudo su
+sudo apt install php7.2-mbstring 
+sudo systemctl restart apache2
+sudo apt install php7.2-zip 
+sudo systemctl restart apache2
+sudo apt install php7.2-gd
+sudo systemctl restart apache2
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo apt install php7.2-curl
+sudo systemctl restart apache2
+sudo apt install phpmyadmin
+sudo cp /etc/phpmyadmin/apache.conf /etc/apache2/conf-enabled/phpmyadmin.conf
+sudo systemctl restart apache2
+sudo apt install curl ca-certificates
+curl https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo su
+sudo apt update
+sudo apt upgrade
+sudo apt install postgresql-11 agadmin4
+sudo apt install postgresql-11 pgadmin4
+sudo su
+pgAdmin4
+sudo su
+exit
+sudo su
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade 
+sudo apt-get install sublime-text
+sudo su
+exit
+cd /usr/share/applications
+sudo su
+cd /usr/share/applications
+sudo su
+exit
+sudo su
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+sudo su
+exit
+sudo su
+exit
+sudo su
+exit
+sudo su
+exit
+sudo su
+exit
+init 6
+sudo su
+exit
+sudo su
+exit
+sudo su
+exit
+sudo su
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+sudo apt install php-mysql
+sudo apt install php-pgsql
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+sudo apt autoremove
+ls -la
+exit
+sudo chmod 777 /var/www/html -R
+ls /var/www/html
+exit
+sudo apt install tilix
+exit
+sudo vim .bashrc
+exit
+ls /etc/profile.d
+exit
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl restart apache2
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl restart apache2
+exit
+sudo systemctl status mysql
+sudo systemctl status postgresql
+sudo systemctl disable mysql
+sudo systemctl disable postgresql
+git --version
+sudo apt install git
+git --version
+sudo systemctl status mysql
+sudo systemctl start mysql
+sudo systemctl status mysql
+exit
+sudo su
+exit
+sudo su
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl restart apache2
+exit
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl restart apache2
+exit
+sudo su
+exit
+sudo su
+exit
+ls
+exit
+sudo su
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+sudo apt autoremove
+exit
+sudo su
+sudo vim /etc/php/7.2/apache2/php.ini
+cd /etc/apache2/
+ls
+sudo vim apache2.conf
+cd
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+sudo vim /etc/php/7.2/apache2/php.ini
+exit
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl restart apache2
+exit
+sudo apt install php7.2-imap
+sudo systemctl restart apache2
+exit
+cd /usr/local/bin
+ls
+exit
+mhsendmail test@mailhog.local From: App
+/usr/bin/mhsendmail test@mailhog.local From: App
+cd /usr/bin
+mhsendmail
+mhsendmail test@mailhog From: App To: Teste Subject: Mensagem de teste Conteúdo do corpo do e-mail! EOF
+sendmail -S mail:1025
+cd
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl restart apache2
+/usr/sbin/sendmail -S mail:1025
+/usr/bin/sendmail -S mail:1025
+exit
+ls
+cd Downloads/
+ls
+sudo cp MailHog_linux_amd64 /usr/bin/mailhog
+sudo chmod +x /usr/bin/mailhog
+cd
+cd /usr/bin
+ls
+mailhog
+cd
+ls
+cd Downloads
+ls
+rm -rf MailHog_linux_amd64
+cd
+ls
+wget https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mhsendmail_linux_amd64
+sudo ln  mhsendmail_linux_amd64 /usr/bin/mhsendmail;sudo ln  mhsendmail_linux_amd64 /usr/bin/sendmail;sudo ln  mhsendmail_linux_amd64 /usr/bin/mail
+ls /usr/bin
+ls /usr/bin | grep mail
+cat /usr/bin/mhsendmail 
+q
+cd /usr/bin
+sudo chmod +x mhsendmail sendmail mail
+mailhog
+exit
+go
+php -r "\$from = \$to = 'your.emailaddress@gmail.com'; \$x = mail(\$to, 'subject'.time(), 'Hello World', 'From: '. \$from); var_dump(\$x);"
+php -r "\$from = \$to = 'ivan.ferro@4linux.com.br'; \$x = mail(\$to, 'subject'.time(), 'Hello World', 'From: '. \$from); var_dump(\$x);"
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo vim /etc/php/7.2/cli/php.ini
+php -r "\$from = \$to = 'ivan.ferro@4linux.com.br'; \$x = mail(\$to, 'subject'.time(), 'Hello World', 'From: '. \$from); var_dump(\$x);"
+systemctl
+systemctl | grep apache2
+cd gocode
+ls
+cd bin
+ls
+cd
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+mailhog
+cd /usr/local/bin
+ls
+ls -la
+sudo su
+cd
+mailhog
+cd /usr/local/bin
+ls -la
+ls
+dir
+cd
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl apache2
+sudo systemctl restart apache2
+mailhog
+mailhog -h
+mailhog
+sudo apt install golang-go
+mkdir gocode
+echo "export GOPATH=$HOME/gocode" >> ~/.profile
+source ~/.profile
+go get github.com/mailhog/MailHog
+go get github.com/mailhog/mhsendmail
+
+ls
+sudo cp gocode/bin/MailHog /usr/local/bin/mailhog
+sudo cp gocode/bin/mhsendmail /usr/local/bin/mhsendmail
+cd gocode
+ls
+ls -la
+cd bin
+ls
+cd
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl restart apache2
+mailhog -api-bind-addr 127.0.0.1:8025 -ui-bind-addr 127.0.0.1:8025 -smtp-bind-addr 127.0.0.1:1025
+ls /usr/local/bin
+mailhog   -api-bind-addr 127.0.0.1:8025   -ui-bind-addr 127.0.0.1:8025   -smtp-bind-addr 127.0.0.1:1025
+sudo apt install golang-go
+sudo cp gocode/bin/MailHog /usr/local/bin/mailhog
+sudo cp gocode/bin/mhsendmail /usr/local/bin/mhsendmail
+sudo vim /etc/php/7.2/apache2/php.ini
+sudo systemctl restart apache2
+mailhog   -api-bind-addr 127.0.0.1:8025   -ui-bind-addr 127.0.0.1:8025   -smtp-bind-addr 127.0.0.1:1025
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+sudo vim .bashrc
+exit
+sudo vim .bashrc
+exit
+sudo systemctl start mysql
+exit
+cd imagens
+ls
+cd Imagens
+ls
+sudo cp *.png /usr/share/lubuntu/wallpapers
+exit
+sudo systemctl status mysql
+sudo systemctl start mysql
+sudo systemctl status mysql
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+sudo systemctl start mysql
+sudo systemctl status mysql
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+cd /var/www/html
+ls
+cd 500
+ls
+cd projeto
+ls
+git --version
+sudo apt install git
+sudo apt autoremove
+git status
+git init
+git status
+git add .
+git status
+git commit -m "Primeiro commit"
+git config --global user.email "iaferro@gmail.com"
+git config --global user.name "Ivan Ferro"
+git commit -m "Primeiro commit"
+git remote add origin https://iaferro@bitbucket.org/iaferro/projeto_500_novo.git
+git push -u origin master
+exit
+sudo su
+exit
+git status
+sudo systemctl start mysql
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+sudo systemctl start mysql
+sudo su
+exit
+sudo systemctl start mysql
+exit
+sudo su
+exit
+ls
+cd core
+ls
+rm -rf funcoes.php
+cd ..
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+sudo systemctl start mysql
+exit
+sudo su
+exit
+man 5 crypt
+man 5 shadow
+man shadow
+man 3 crypt
+man shadow
+man 3 crypt
+man crypt
+sudo su 
+exit
+ip a
+exit
+ip a
+sudo systemctl start mysql
+exit
+sudo systemctl start mysql
+sudo systemctl status mysql
+ecit
+exit
+sudo systemctl status mysql
+sudo systemctl stop mysql
+sudo systemctl status mysql
+q
+sudo su
+exit
+sudo systemctl start mysql
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt upgrade --fix-missing
+sudo apt dist-upgrade 
+exit
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+exit
+sudo su
+exit
+sudo systemctl start postgresql
+exit
+sudo vim .bashrc
+exit
+htop
+exit
+cd /var/www/
+ls
+mkdir html/
+cd html/
+ls
+mkdir 501
+cd 501/
+ssh-keygen 
+cat ~/.ssh/id_rsa.pub 
+git config --global --help
+git config --global username
+git clone git@github.com:wellingtonfulgor/4linux-estudo.git
+ls
+cd 4linux-estudo/
+ls
+git config --global user.name
+git config --global user.name wellingtonfulgor
+git config --global user.email wellingtonfulgor@gmail.com
+git status 
+sudo su
+su
+sudo su
+php7.2 -S /var/www/html/501/ 
+cd /var/www/html/501/
+php7.2 -S localhost:8000
+cd /var/www/html/501/4linux-estudo/
+ls
+git status 
+git add .
+git push 
+git status 
+git commit "alteracao readme"
+git commit -m "alteracao readme"
+git add .
+git status 
+git push 
+history 
+git config --global user.name
+git status
+ls
+git add .
+git push
+git status
+history 
+git status 
+git push origin 
+git push master
+git clone git@github.com:wellingtonfulgor/4linux-estudo.git
+git status 
+ls
+cd 4linux-estudo/
+ls
+cd ..
+ls
+rm -rf 4linux-estudo/
+ls
+git add .
+ls
+ls -a
+cd .git/
+ls
+cat config 
+cd ..
+ls
+git push 
+cat ~/.ssh/id_rsa.pub 
+history |grep git
+git remote add git@github.com:wellingtonfulgor/4linux-estudo.git
+git status 
+git add .
+git status 
+git push -u origin master 
+ls
+mv * ../
+ls
+cd ..
+ls
+rm -rf 4linux-estudo/
+ls
+mkdir aula01
+mv * aula01/
+ls
+cd aula01/
+ls
+ls -a
+ls
+mv README.md ../
+ls
+git config --global user.email wellingtonfulgor@gmail.com
+cd ..
+ls
+git config --global user.email wellingtonfulgor@gmail.com
+git config --global user.name wellingtonfulgor
+git status 
+git clone git@github.com:wellingtonfulgor/4linux-estudo.git
+git status 
+ls
+cd 4linux-estudo/
+ls
+cd ..
+ls
+git status 
+cd 4linux-estudo/
+ls
+git status 
+ls
+mkdir aula01
+mv * aula01/
+ls
+cd aula01/
+ls
+mv README.md ../
+ls
+cd ..
+ls
+mkdir aula02
+git status 
+git commit -m "arrumar diretorios"
+ls
+git push 
+ls
+cd ..
+ls
+cd 4linux-estudo/
+ls
+cd ..
+ls
+cp aula0* 4linux-estudo/
+cp -rf aula0* 4linux-estudo/
+cd 4linux-estudo/
+ls
+cd aula02/
+ls
+history |grep git
+git status 
+cd ..
+ls
+git add .
+git commit -
+git add .
+git status 
+git push 
+ls
+git status 
+ls
+git push origin 4linux-estudos
+git push origin 
+ls
+cd ..
+ls
+cd 4linux-estudo/
+ls
+git status 
+git commit 
+git commit -m "mudanca diretorio"
+sudo vim /etc/php/7.2/apache2/php.ini
+vim /etc/php/7.2/apache2/php.ini
+su
+sudo systemctl status apache2
+git status 
+git push 
+ls
+git status 
+git push 
+ls
+cd ..
+ls
+cp -rf aula0* 4linux-estudo/
+cd 4linux-estudo/
+git status 
+git push 
+cd ..
+ls
+rm -rf aula0*
+ls
+cd 4linux-estudo/
+ls
+cd ..
+ls
+cd 4linux-estudo/
+ls
+git status
+git push
+git status
+git commit -m "Alteracao Readme"
+git status
+git add  .
+git push 
+git status
+git commit -m "Alteracao Readme"
+git push 
+uname -a
+ls
+git status 
+ls -a
+cat .git/
+ls
+cat .git/config 
+ls
+git status 
+git add .
+git commit -m "Criacao classes Henraca"
+git push 
+git status 
+git add .
+git commit -m "Atualizacao"
+git add .
+git push 
+sudo su
+su
+xit
+exit
+php artisan server
+php artisan serve
+exit
+cd /var/www/html/501/4linux-estudo/
+ls
+cd ..
+ls
+ls -a
+cd 4linux-estudo/
+ls
+ls -a
+git status
+ping google.com
+history |grep git
+git  config --global user.email wellingtonfulgor@gmail.com
+git config --global user.name wellingtonfulgor
+git status
+git user.name
+git config --global user.name 
+git status
+git add .
+git commit -m "asdfasdf"
+history |grep git
+cd .git/objects/
+ls
+rm -rf 84/116009969b9f5fe1bc48d00a2a55d31123451e 
+git status
+cd ..
+git status
+ls -l
+git status
+ls
+git config --global user.name 
+git config --global user.email 
+git push 
+history |grep git
+git init 
+git status 
+git clone git@github.com:wellingtonfulgor/4linux-estudo.git
+ls
+cd 4linux-estudo/
+ls
+mv * ../
+mv -rf * ../
+mv -f * ../
+ls
+cd ..
+ls
+rm -rf aula0* classe-abstrata/ MetodoEstatico/ visibilidade/
+ls
+cd 4linux-estudo/
+ls
+mv * ../
+ls
+cd ..
+rm -rf 4linux-estudo/
+git status 
+cd .git/
+ls
+cd objects/
+ls
+rm -rf *
+cd ../../
+ls
+git status 
+rm -rf .git/
+git status 
+git config --global user.name 
+git init
+ls
+cd ..
+git init
+git status 
+git add .
+git commit -m "alteracao"
+git push 
+git config --global user.name 
+cat .git/config 
+cd 4linux-estudo/
+ls
+cat .git/config 
+cd ..
+git status 
+cd 4linux-estudo/
+ls
+git status 
+ls
+touch teste
+git status 
+git add .
+git status 
+git commit -m "teste01"
+git push 
+history |grep remote
+git remote add git@github.com:wellingtonfulgor/4linux-estudo.git
+git remote add origin git@github.com:wellingtonfulgor/4linux-estudo.git
+git status 
+ls
+rm -f teste 
+git status 
+git add .
+git commit -m "Remover arquivo teste"
+git push 
+git config --global user.name 
+git init 
+git status 
+git push -u origin master 
+git pull 
+git pull 4linux
+git pull 4linux-estudos
+git push 4linux-estudo
+git pull 4linux-estudo
+cd ..
+ls
+cd ..
+ls
+git config --global username
+git config --global user.name 
+git clone git@github.com:wellingtonfulgor/4linux-estudo.git
+ls
+ls -a
+cd 4linux-estudo/
+ls
+ls -a
+git status 
+git remote add origin https://github.com/wellingtonfulgor/4linux-estudo.git
+git status 
+history grep master
+history |grep master
+git push master
+git push -u origin master
+git push -u origin git@github.com:wellingtonfulgor/4linux-estudo.git
+history |grep git
+git remote add git@github.com:wellingtonfulgor/4linux-estudo.git
+git remote add origin git@github.com:wellingtonfulgor/4linux-estudo.git
+cat ~/.ssh/id_rsa.pub 
+git init 
+git status 
+ls
+touch teste
+git status 
+git add .
+git commit -m "asdasd"
+git push 
+cd ../501/
+ls
+cd 4linux-estudo/
+ls
+touch teste02
+su
+git status 
+git add .
+git commit -m "Consertando bug git"
+git push 
+git push --set-upstream origin master 
+git push --set-upstream origin 4linux-estudo
+git push --set-upstream origin 
+git push --set-upstream origin master 
+git pull 
+git branch --set-upstream-to=origin/master 
+git push 
+cd ../
+ls
+cd 4linux-estudo/
+ls
+rm -f teste02 
+cd ../
+ls
+cd ../
+ls
+cd 4linux-estudo/
+ls
+git status 
+git config --global user.email 
+git init 
+git status 
+ls
+rm -f teste 
+git status 
+git add .
+git commit -m "teste"
+git push 
+cp -r ../501/4linux-estudo/aula07 
+cp -r ../501/4linux-estudo/aula07 .
+ls
+git status 
+git add .
+git commit -m "aula07"
+git push 
+mysql -u developer -p
+mysql -u BLOG -p
+mysql -u blog -p
+cd 
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+ls
+cat composer-setup.php 
+ls
+cat composer-setup.php 
+cat composer-setup.php |less
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+ls
+rm -f composer.phar 
+sudo php composer-setup.php --install-dir=/bin/ --filename=composer
+composer 
+sudo apt install php7.2-bcmath php7.2-json php7.2-mbstring php7.2-xml php7.2-zip 
+cd /var/www/html/4linux-estudo/aula07/
+ls
+compor create-project --prefer-dist laravel/varavel laravel
+composer create-project --prefer-dist laravel/varavel laravel
+ls
+composer create-project --prefer-dist laravel/laravel laravel
+cd laravel/
+ls
+sudo apt install sqlite
+ls
+php artisan serve
+php artisan
+php artisan migrate
+sudo apt-get install php7.2-sqlite3 
+php artisan migrate
+ls
+cat database.sqlite 
+ls
+php artisan migrate
+php artisan serve
+php artisan make:auth
+ifco
+ssh -X developer@localhost 'DISPLAY=:0 notify-send "Teste" 
+ssh -X developer@localhost 'DISPLAY=:0 notify-send "Teste"'
+apt-get install nmap
+su
+sudo apt search notify-send
+sudo apt-get install ruby-notify
+notify-send "teste"
+ssh developer@localhost notify-send "teste"
+ssh developer@192.168.203.5 notify-send "teste"
+php artisan serve
+curl -sL http://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+ls
+rm -f phpunit
+npm i
+php artisan serve
+cd ../
+cd ../aula08/
+composer require --dev phpunit
+composer require --dev phpunit/phpunit
+composer require --dev phpunit/phpunit 
+ls
+cd vendor/
+ls
+cd ..
+./vendor/bin/phpunit --version
+phpunit --version
+cd ..
+git status
+git add .
+git commit -m "aula 08"
+git push 
+ls
+cd aula08/
+ls
+cd ..
+git status
+git add .
+git commit -m "aula 08"
+git push 
+history |grep git
+ls
+nano .gitignore 
+git status
+git add .
+git commit -m "aula 08 Laravel"
+git push
+logout 
+cd /var/www/html/501/
+ls
+rm -rf *
+ls
+mysql -u root -p
+mysql -u developer -p
+cd ../
+ls
+cd 4linux-estudo/
+ls
+git status 
+git --help
+ls
+git add --help
+du -sh
+ls
+nano .gitignore
+git status 
+git add .
+git commit -m "Aula07 Laravel"
+git push 
+su
+cd aula07/laravel/
+ls
+php artisan serve
+composer require laravel/ui --dev
+php artisan
+php artisan ui vue --auth
+"npm install && npm run dev
+npm install && npm run dev
+ls
+sudo apt-get install xfce4-session 
+sudo apt-get remove xfce4-session 
+sudo apt-get install xfce4-session 
+wget -O phpunit https://phar.phpunit.de/phpunit-8.phar
+cd 
+wget -O phpunit https://phar.phpunit.de/phpunit-8.phar
+ls
+chmod +x phpunit 
+ls
+./phpunit --version
+ls -l
+mv phpunit /bin/
+sudo mv phpunit /bin/
+phpunit --version
+php artisan ui vue --auth
+cd /var/www/html/4linux-estudo/aula07/laravel/
+ls
+php artisan ui vue --auth
+npm install && npm run dev
+ls
+cd database/
+ls
+cd ..
+ls
+pwd
+php artesan make:controller vendas
+php artisan make:controller produtos_controller
+php artisan make:controller VendasController
+cd /var/www/html/4linux-estudo/
+ls
+git status 
+ls
+nano README.md 
+git status 
+git add .
+git commit -m "teste"
+git push
